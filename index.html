@@ -5,9 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog HTML semântico</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <header>
+        <nav id="navbar">
+            <div id="navbar-inner">
+                <h2>Blog</h2>
+                <ul id="nav-linhas">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="img/f1.jpg" alt="Passeio de barco">
+                <h3 class="title"><a href="#">Postagem da viagem a barco</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, enim temporibus
+                    aliquid sed error,
+                    praesentium officiis animi neque dicta nostrum repellendus laboriosam voluptate ab tenetur quisquam
+                    iusto laudantium repudiandae. Officia.</p>
+            </article>
+            <article class="post">
+                <img src="img/f2.jpg" alt="Cachoeira">
+                <h3 class="title"><a href="#">Postagem da viagem a cachoeira</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, enim temporibus
+                    aliquid sed error,
+                    praesentium officiis animi neque dicta nostrum repellendus laboriosam voluptate ab tenetur quisquam
+                    iusto laudantium repudiandae. Officia.</p>
+            </article>
+            <article class="post">
+                <img src="img/f3.jpg" alt="Balões">
+                <h3 class="title"><a href="#">Postagem da viagem a balões</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, enim temporibus
+                    aliquid sed error,
+                    praesentium officiis animi neque dicta nostrum repellendus laboriosam voluptate ab tenetur quisquam
+                    iusto laudantium repudiandae. Officia.</p>
+            </article>
+        </main>
+        <aside id="siderbar"></aside>
+    </div>
 
 </body>
 
